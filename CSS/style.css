@@ -1,0 +1,29 @@
+body{
+    font-family: "Brush Script";
+    font-size: 15px;
+}
+header{
+    background-color: rgb(250, 34, 178);
+}
+nav{
+    background-color: rgba(83, 186, 204, 0.288);
+}
+main{
+    background-color: rgb(248, 244, 20);
+    font-size:  20px;
+}
+footer{
+    background-color: rgb(25, 255, 129);
+}
+li{
+    display: center;
+    width: 10%;
+}
+h1{
+        text-align: left;
+        font-family: "Dancing Script";
+        color: rgb(0, 0, 0);
+}
+p{
+    line-height: 15px;
+}
