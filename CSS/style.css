@@ -1,29 +1,129 @@
-body{
-    font-family: "Brush Script";
-    font-size: 15px;
+.skip-link {
+  display: block;
+  margin-bottom: 20px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: blue;
+  padding: 10px;
+  text-decoration: none;
+  z-index: 1000;
+
+
 }
-header{
-    background-color: rgb(250, 34, 178);
+
+.skip-link:focus{
+top: 0;
+outline: 2px
+
+  
 }
-nav{
-    background-color: rgba(83, 186, 204, 0.288);
+
+
+
+p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 1.8;
+  
 }
-main{
-    background-color: rgb(248, 244, 20);
-    font-size:  20px;
+
+body {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: medium;
 }
-footer{
-    background-color: rgb(25, 255, 129);
+
+header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: aqua;
+  height: 50%;
 }
-li{
-    display: center;
-    width: 10%;
+
+nav {
+  display: inline-block;
+  width: 80%;
+  background-color: aqua;
+  margin: 20px
 }
-h1{
-        text-align: left;
-        font-family: "Dancing Script";
-        color: rgb(0, 0, 0);
+
+main {
+  display: block;
+  unicode-bidi: isolate;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  background-color: aquamarine;
+  font-size: medium;
 }
-p{
-    line-height: 15px;
+
+footer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: azure;
+}
+
+li {
+  display: flex;
+  width: fit-content;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: coral;
+}
+
+p {
+  line-height: 40px;
+}
+
+img {
+  width: 10%;
+  position: relative;
+}
+
+ul {
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  row-gap: 20px;
+  column-gap: 40px;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  width: 80%;
+}
+
+.grid img {
+  width: 100%;
+}
+
+.flex {
+  flex-wrap: wrap;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+}
+
+a {
+  font-style: 30px;
+  font-weight: bold;
+}
+
+header img{
+  width: 10%
+  position: relative;
+  top: 20px;
+  float: right; margin-right: 0px;
+  
 }
